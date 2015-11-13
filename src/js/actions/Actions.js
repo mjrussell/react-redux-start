@@ -6,3 +6,10 @@ export function submitName(data) {
         data: data,
     };
 }
+
+export function clearName() {
+    return {
+        type: Constants.CLEAR_NAME,
+        data: {},
+    };
+}

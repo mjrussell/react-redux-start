@@ -14,6 +14,11 @@ export default function (state = initialState, action = {}) {
                 ...state,
                 name: data.name
             };
+        case Constants.CLEAR_NAME:
+            return {
+                ...state,
+                name: initialState.name
+            };
         default:
             return state;
     }

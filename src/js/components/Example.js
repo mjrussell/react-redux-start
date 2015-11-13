@@ -5,6 +5,7 @@ const Example = React.createClass({
     propTypes: {
         name: PropTypes.string,
         submitName: PropTypes.func.isRequired,
+        clearName: PropTypes.func.isRequired,
     },
 
     renderName: function() {
@@ -31,6 +32,7 @@ const Example = React.createClass({
                 {this.renderName()}
                 <input type='username' id='username' ref='username' placeholder='Username'/>
                 <button type='submit' onClick={this.onSubmit}>Login</button>
+                <button type='submit' onClick={this.props.clearName}>Clear</button>
             </div>
         );
     }

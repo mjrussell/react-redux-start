@@ -17,12 +17,13 @@ const ExampleContainer = React.createClass({
     propTypes: {
         name: PropTypes.string,
         submitName: PropTypes.func.isRequired,
+        clearName: PropTypes.func.isRequired,
     },
 
     render() {
 
         return (
-            <Example name={this.props.name} submitName={this.props.submitName} />
+            <Example name={this.props.name} submitName={this.props.submitName} clearName={this.props.clearName} />
         );
     }
 });

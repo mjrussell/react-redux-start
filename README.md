@@ -15,12 +15,6 @@ Install the dependencies:
 
 `npm install`
 
-Run the tests:
-
-`npm test`
-
-(Note you may need Node V4+ in order run the tests, otherwise bump jest down to 4.x)
-
 Start the hot reloading:
 
 `npm start`

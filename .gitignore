@@ -1,0 +1,9 @@
+*.class
+*.log
+*.DS_Store
+*.swpcache/
+**.idea
+
+.node-version
+dist/
+node_modules/

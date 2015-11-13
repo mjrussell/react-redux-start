@@ -15,12 +15,16 @@ Install the dependencies:
 
 `npm install`
 
-Start the hot reloading:
-
-`npm start`
-
 Run the tests:
 
 `npm test`
 
 (Note you may need Node V4+ in order run the tests, otherwise bump jest down to 4.x)
+
+Start the hot reloading:
+
+`npm start`
+
+Now browse to http://127.0.0.1:8080!
+
+

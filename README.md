@@ -22,3 +22,5 @@ Start the hot reloading:
 Run the tests:
 
 `npm test`
+
+(Note you may need Node V4+ in order run the tests, otherwise bump jest down to 4.x)

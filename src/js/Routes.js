@@ -1,13 +1,13 @@
 import React from 'react';
-import { Route, Redirect, IndexRoute } from 'react-router';
+import { Route, Redirect } from 'react-router';
 
 import AppContainer from './containers/AppContainer';
-import Example from './components/Example';
+import ExampleContainer from './containers/ExampleContainer';
 
 const routes = (
     <Route component={AppContainer}>
         <Redirect from='/' to='/app' />
-        <Route path='app' component={Example} />
+        <Route path='app' component={ExampleContainer} />
         <Redirect from='*' to='/app' />
     </Route>
 );
